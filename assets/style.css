@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+body{
+  font-size: 18px;
+  color: #5a5a5a;
+  background-color: #fafafa;
+  font-weight: 300;
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header{
+  margin-top: 80px;
+}
+
+.title a{
+  text-decoration: none;
+  color: #d8d8d8
+}
+
+.title a:hover{
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+.firstName{
+  color: #2b2b2b;
+}
+
+.subHeader{
+  text-align: center;
+}
+
+.list-inline a{
+  color: #2b2b2b;
+}
+
+.list-inline a:hover{
+  text-decoration: none;
+  color: #d8d8d8;
+}
