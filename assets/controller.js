@@ -1,4 +1,4 @@
-var app = angular.module("myApp", [ngRoute])
+var app = angular.module("myApp", ['ngRoute'])
 
 // app.controller('MyCtrl', function($scope){
 //   $scope.expr= "Let's get in touch";
