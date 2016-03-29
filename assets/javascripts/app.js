@@ -1,4 +1,4 @@
-var app = angular.module('myblogapp', ['ngRoute'])
+var app = angular.module('myblogapp', ['ngRoute', 'ui.router'])
 
 // Controllers
 
