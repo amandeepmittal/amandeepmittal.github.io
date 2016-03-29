@@ -1,7 +1,7 @@
 var app = angular.module('myblogapp', ['ngRoute'])
 
 
-// Congiguration-Routing
+// Configuration-Routing
 app.config(function($routeProvider){
   $routeProvider
     .when("/about",{
