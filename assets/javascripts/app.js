@@ -1,5 +1,8 @@
 var app = angular.module('myblogapp', ['ngRoute'])
 
+// Controllers
+
+
 
 // Configuration-Routing
 app.config(function($routeProvider){
