@@ -10,4 +10,7 @@ app.config(function($routeProvider){
     .when("/about",{
       templateUrl: 'about.html'
     })
+    .when("/blog", {
+      templateUrl: 'blog.html'
+    })
 });
