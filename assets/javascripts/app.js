@@ -1,4 +1,4 @@
-var app = angular.module('myblogapp', ['ngRoute', 'ui.router'])
+var app = angular.module('myblogapp', ['ngRoute'])
 
 // Controllers
 
@@ -13,7 +13,7 @@ app.config(function($routeProvider){
     .when("/about",{
       templateUrl: 'about.html'
     })
-    .when("/blog", {
-      templateUrl: 'blog.html'
-    })
+    // .when("/blog", {
+    //   templateUrl: 'blog.html'
+    // })
 });
