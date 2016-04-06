@@ -52,11 +52,11 @@ ul{
   padding-top: 30px;
 }
 
-.npmstyle a{
+#npmstyle a{
   color: #2b2b2b;
 }
 
-.npmstyle a:hover{
+#npmstyle a:hover{
   text-decoration: none;
   color: #d8d8d8;
 }
