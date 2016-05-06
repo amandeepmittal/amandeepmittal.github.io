@@ -1,0 +1,17 @@
+{
+  "name": "amanmittal",
+  "version": "0.0.1",
+  "description": "my own wesbite",
+  "main": "app.js",
+  "dependencies": {
+    "morgan": "^1.7.0",
+    "pug": "^2.0.0-alpha6",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
