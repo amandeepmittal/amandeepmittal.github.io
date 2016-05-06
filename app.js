@@ -6,8 +6,7 @@ var
   pug = require('pug')
   app = express();
 
-// Configuration ==================
-var port = process.env.PORT || 8080;
+
 
 // Middleeware ==================
 
@@ -55,7 +54,4 @@ app.use(function(err,req,res,next){
   });
 });
 
-// Server Startup ==================
-app.listen(port, function(){
-  console.log('Server Started at port: ' + port);
-});
+module.exports = app;
