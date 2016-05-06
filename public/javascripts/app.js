@@ -7,13 +7,13 @@ var app = angular.module('myblogapp', ['ngRoute'])
 // Configuration-Routing
 app.config(function($routeProvider){
   $routeProvider
-    .when("/",{
+    .when("public/",{
       templateUrl:'home.html'
     })
-    .when("/about",{
+    .when("public/about",{
       templateUrl: 'about.html'
     })
-    .when("/article", {
+    .when("/public/article", {
       templateUrl: 'article.html'
     })
     // .when("/blog", {
