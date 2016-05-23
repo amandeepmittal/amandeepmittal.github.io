@@ -16,6 +16,9 @@ app.config(function($routeProvider){
     .when("/article", {
       templateUrl: 'article.html'
     })
+    .when("/project", {
+      templateUrl: 'project.html'
+    })
     // .when("/blog", {
     //   templateUrl: 'blog.html'
     // })
