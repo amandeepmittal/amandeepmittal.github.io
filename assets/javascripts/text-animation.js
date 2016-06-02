@@ -9,7 +9,7 @@ $(document).ready(function() {
     "Heroku.",
     "Mongoose."],
     typeSpeed: 100,
-    backSpeed: 155,
+    backSpeed: 160,
     startDelay: 850,
     loop: true
   });
