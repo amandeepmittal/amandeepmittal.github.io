@@ -73,6 +73,10 @@ ul{
   color: #2b2b2b;
 }
 
+.type{
+  color: #2b2b2b;
+}
+
 .typed-cursor {
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
