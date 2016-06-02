@@ -2,14 +2,14 @@ $(document).ready(function() {
   $(".type").typed({
     strings: ["Javascript.",
     "Node.js.",
-    "AngularJS.",
     "MongoDB.",
     "ExpressJS.",
+    "AngularJS.",
     "MEAN Stack.",
     "Heroku.",
     "Mongoose."],
     typeSpeed: 100,
-    backSpeed: 160,
+    backSpeed: 170,
     startDelay: 850,
     loop: true
   });
