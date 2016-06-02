@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $(".type").typed({
-    strings: ["Javascript.",
+    strings: ["JavaScript.",
     "Node.js.",
     "MongoDB.",
     "ExpressJS.",
