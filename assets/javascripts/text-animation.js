@@ -1,14 +1,13 @@
 $(document).ready(function() {
-  $(".typing").typed({
+  $(".type").typed({
     strings: ["Javascript.",
-    "Node.",
-    "Angular.",
-    "Mongo.",
-    "Express.",
+    "Node.js.",
+    "AngularJS.",
+    "MongoDB.",
+    "ExpressJS.",
     "MEAN Stack.",
     "Heroku.",
-    "Mongoose.",
-    "Tomcat.",],
+    "Mongoose."],
     typeSpeed: 100,
     backSpeed: 155,
     startDelay: 850,
