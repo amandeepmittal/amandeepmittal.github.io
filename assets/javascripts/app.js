@@ -18,7 +18,7 @@ app.config(function($routeProvider, $locationProvider){
     })
     .when("/project", {
       templateUrl: 'project.html'
-    });
+    })
     // .when("/blog", {
     //   templateUrl: 'blog.html'
     // })
