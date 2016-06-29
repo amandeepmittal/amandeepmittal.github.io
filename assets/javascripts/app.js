@@ -5,7 +5,7 @@ var app = angular.module('myblogapp', ['ngRoute'])
 
 
 // Configuration-Routing
-app.config(function($routeProvider){
+app.config(function($routeProvider, $locationProvider){
   $routeProvider
     .when("/",{
       templateUrl:'home.html'
@@ -18,8 +18,10 @@ app.config(function($routeProvider){
     })
     .when("/project", {
       templateUrl: 'project.html'
-    })
+    });
     // .when("/blog", {
     //   templateUrl: 'blog.html'
     // })
+    
+    $locationProvider.html5mode(true);
 });
