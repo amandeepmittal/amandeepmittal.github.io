@@ -23,5 +23,5 @@ app.config(function($routeProvider, $locationProvider){
     //   templateUrl: 'blog.html'
     // })
     
-    $locationProvider.html5mode(true);
+    
 });
