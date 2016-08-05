@@ -36,14 +36,18 @@ ul{
 }
 
 .subHeader{
-  font-weight:-50px;
   margin-top:40px;
 }
 
-.pColor{
-  color: #5D5D5D;
+.pColour{
+  color: #6e6e6e;
+  font-size:15px;
+
 }
 
+.inlineColour{
+  color: #2d2d2d;
+}
 
 /*Social Buttons*/
 .list-inline a{
