@@ -51,6 +51,7 @@ ul{
 
 .panel{
   background-color: #fafafa;
+  margin-top:15px;
 }
 
 .toolboxText{
@@ -67,6 +68,12 @@ ul{
   text-decoration: none;
   color: #d8d8d8;
 }
+
+.footer{
+  background-color:#fdfdfd;
+  margin-top:50px;
+}
+
 
 /*content*/
 .content{
