@@ -1,11 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);*/
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 
 body{
   font-size: 18px;
   color: #5a5a5a;
   background-color: #fafafa;
   font-weight: 300;
-  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Press Start 2P', cursive;
   line-height: 1.6;
 }
 
