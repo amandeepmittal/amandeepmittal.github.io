@@ -36,7 +36,8 @@ ul{
 }
 
 .subHeader{
-  font-weight:lighter;
+  font-weight:-50px;
+  margin-top:30px;
 }
 
 /*Social Buttons*/
@@ -102,9 +103,6 @@ ul{
   100% { opacity:1; }
 }
 
-.devicons-npm{
-  font-size: 2rem;
-}
-.devicons-atom{
-  font-size: 2rem;
+.devicons{
+  font-size:10rem;
 }
