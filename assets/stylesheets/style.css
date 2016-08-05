@@ -46,7 +46,11 @@ ul{
 }
 
 .inlineColour{
-  color: #2d2d2d;
+  color: #2b2b2b;
+}
+
+.panel{
+  background-color: #fafafa;
 }
 
 /*Social Buttons*/
@@ -63,15 +67,6 @@ ul{
 .content{
   padding-top: 30px;
   margin-bottom:10px;
-}
-
-#npmstyle a{
-  color: #2b2b2b;
-}
-
-#npmstyle a:hover{
-  text-decoration: none;
-  color: #d8d8d8;
 }
 
 /*Text Animation*/
