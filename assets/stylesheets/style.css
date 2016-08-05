@@ -53,6 +53,11 @@ ul{
   background-color: #fafafa;
 }
 
+.toolboxText{
+  font-size:15px;
+  color: #6e6e6e;
+}
+
 /*Social Buttons*/
 .list-inline a{
   color: #2b2b2b;
