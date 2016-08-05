@@ -62,6 +62,7 @@ a{
 
 #projectList small{
   color: #9f9f9f;
+  font-size: 14px;
 }
 
 .inlineColour{
@@ -171,5 +172,5 @@ a{
 
 #nodeDevicon
 {
-  font-size:5rem;
+  font-size:4.5rem;
 }
