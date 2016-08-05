@@ -108,9 +108,12 @@ a{
 }
 /**/
 .content{
-  /*padding-top: 30px;*/
-  padding:100px;
-  /*margin-bottom:40px;*/
+  padding-top: 30px;
+  padding-bottom:60px;
+}
+
+#animate{
+  margin-bottom:30px;
 }
 
 /*Text Animation*/
