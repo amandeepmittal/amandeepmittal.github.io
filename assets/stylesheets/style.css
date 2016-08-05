@@ -92,16 +92,19 @@ a{
 .footer{
   background-color:#fdfdfd;
   padding-top:50px;
+  color: #9f9f9f;
 }
 
 #pFooter{
   font-size:12px;
+  color: #9f9f9f;
 }
 
 .footer-copyright{
   font-size:10px;
   padding:18px;
   margin-top:25px;
+  color: #9f9f9f;
 }
 /**/
 .content{
