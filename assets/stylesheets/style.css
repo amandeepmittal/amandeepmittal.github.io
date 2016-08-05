@@ -52,6 +52,7 @@ ul{
 /*content*/
 .content{
   padding-top: 30px;
+  margin-bottom:10px;
 }
 
 #npmstyle a{
@@ -101,6 +102,9 @@ ul{
   100% { opacity:1; }
 }
 
-.deviconsFontSize{
-  font-size: 20px;
+.devicons-npm{
+  font-size: 2rem;
+}
+.devicons-atom{
+  font-size: 2rem;
 }
