@@ -54,7 +54,7 @@ a{
   margin-top:40px;
 }
 
-.p{
+.subHeader p{
   color: #9f9f9f;
   font-size:16px;
 
@@ -149,9 +149,9 @@ a{
 
 /*Devicons*/
 .devicons{
-  font-size:5rem;
+  font-size:7.5rem;
 }
 
 #smallDevicons{
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
