@@ -29,10 +29,6 @@ a{
   color: #d8d8d8;
 }
 
-#animate{
-  padding-bottom:30px;
-}
-
 /*About Page*/
 .aboutPage h4{
   color: #9f9f9f;
@@ -110,7 +106,7 @@ a{
 /**/
 .content{
   padding-top: 30px;
-  margin-bottom:40px;
+  margin-bottom:60px;
 }
 
 /*Text Animation*/
