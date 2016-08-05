@@ -40,6 +40,11 @@ ul{
   margin-top:30px;
 }
 
+.pColor{
+  color: #b8b8b8;
+}
+
+
 /*Social Buttons*/
 .list-inline a{
   color: #2b2b2b;
@@ -104,5 +109,5 @@ ul{
 }
 
 .devicons{
-  font-size:10rem;
+  font-size:5rem;
 }
