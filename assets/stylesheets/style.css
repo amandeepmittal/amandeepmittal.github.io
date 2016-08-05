@@ -145,3 +145,7 @@ a{
 .devicons{
   font-size:5rem;
 }
+
+#smallDevicons{
+  font-size: 2.5rem;
+}
