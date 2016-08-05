@@ -28,6 +28,11 @@ a{
   text-decoration: none;
   color: #d8d8d8;
 }
+
+#animate{
+  padding-bottom:30px;
+}
+
 /*About Page*/
 .aboutPage h4{
   color: #9f9f9f;
@@ -149,6 +154,7 @@ a{
 /*articles archive*/
 #archive h3{
   text-decoration:underline;
+  margin-bottom:10px;
 }
 
 /*Devicons*/
