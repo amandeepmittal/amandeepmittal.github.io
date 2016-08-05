@@ -57,7 +57,10 @@ a{
 .subHeader p{
   color: #9f9f9f;
   font-size:16px;
+}
 
+#projectList small{
+  color: #9f9f9f;
 }
 
 .inlineColour{
