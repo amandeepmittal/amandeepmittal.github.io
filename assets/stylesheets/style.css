@@ -30,7 +30,7 @@ a{
 }
 /*About Page*/
 .aboutPage h4{
-  color: #6e6e6e;
+  color: #9f9f9f;
   font-size:16px;
 }
 
@@ -55,7 +55,7 @@ a{
 }
 
 .p{
-  color: #6e6e6e;
+  color: #9f9f9f;
   font-size:16px;
 
 }
@@ -84,9 +84,11 @@ a{
   color: #d8d8d8;
 }
 
+/*Footer*/
 .footer{
   background-color:#fdfdfd;
   padding-top:50px;
+  font-size:10px;
 }
 
 .footer-copyright{
