@@ -98,3 +98,7 @@ ul{
   50% { opacity:0; }
   100% { opacity:1; }
 }
+
+.deviconsFontSize{
+  font-size: 20px;
+}
