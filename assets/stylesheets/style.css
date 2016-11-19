@@ -12,9 +12,10 @@ body{
 }
 
 .nonRetroText{
-  font-weight:400;
+  font-weight:425;
   font-family:monospace;
-  font-size:18.5px;
+  font-size:19px;
+  list-style-type: square;
 }
 
 header{
