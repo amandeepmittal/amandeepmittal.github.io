@@ -11,6 +11,10 @@ body{
   line-height: 1.6;
 }
 
+.nonRetroText{
+  font-family:sans-serif;
+}
+
 header{
   margin-top: 80px;
 }
