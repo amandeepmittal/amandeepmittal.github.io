@@ -1,4 +1,4 @@
-var app = angular.module('myblogapp', ['ngRoute'])
+var app = angular.module('myWebsite', ['ngRoute'])
 
 // Controllers
 
@@ -18,10 +18,13 @@ app.config(function($routeProvider, $locationProvider){
     })
     .when("/project", {
       templateUrl: 'project.html'
-    })
+    });
     // .when("/blog", {
     //   templateUrl: 'blog.html'
     // })
     
-    
+  $locationProvider.html5Mode({
+    enabled: true,
+    requireBase: false
+  });
 });
