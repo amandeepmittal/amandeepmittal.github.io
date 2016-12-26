@@ -173,8 +173,16 @@ a{
   font-size:7.5rem;
 }
 
+#subHeaderLinks a {
+  text-decoration: underline;
+}
+
 #smallDevicons{
   font-size: 3.5rem;
+}
+
+#mediumDevicons{
+  font-size: 4.5rem;
 }
 
 #nodeDevicon
