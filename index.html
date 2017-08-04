@@ -6,63 +6,31 @@
     <meta name="description" content="Portfolio Website">
     <meta name="author" content="amandeepmittal">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Aman Mittal | MEAN JS Dev</title>
-    <!-- External CSS -->
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"  >
-    <!-- Fonts -->
-    <!-- Font-Awesome 4.5.0 -->
-    <link rel="stylesheet" href="assets/bootstrap/fonts/font-awesome.min.css">
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/stylesheets/style.css">
-    <!-- Devicons -->
-    <link rel="stylesheet" href="assets/stylesheets/devicons.min.css">
-    <!-- AngularJS Scripts-->
-    <script src="assets/javascripts/angular.min.js"></script>
-    <script src="assets/javascripts/angular-route.min.js"></script>
-    <script src="assets/javascripts/app.js"></script>
+    <title>brb</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
-      <header>
-        <!-- Title + Navigation -->
-        <h1 class="title">
-          <a ng-href="/">Hello. I'm <span class="firstName">Aman</span> Mittal</a>
-
-        </h1>
-        <nav class="title">
-          <a ng-href="/">home</a>
-          <a ng-href="/about">about</a>
-          <a ng-href="/article">articles</a>
-          <a ng-href="/project">projects</a>
-          <a ng-href="https://medium.com/@amanhimself" target="_blank">blog</a>
-
-        </nav>
-      </header>
-      <hr>
-      <div class="content">
-        <div id="animate">
-          <h2 class="text-center title">
-            <a ng-href="/about">I love to work with <span class="type formatting"></span></a>
-          </h2>
+    <div class="wrapper">
+      <div class="item">
+        <div class="bubble">
+          brb
         </div>
-        <!-- DYNAMIC CONTENT -->
-        <ng-view></ng-view>
+      </div>
+      <div class="item">
+        <div class="bubble bubble-load">
+          <div class="circle circle-one"></div>
+          <div class="circle circle-two"></div>
+          <div class="circle circle-three"></div>
+        </div>
       </div>
     </div>
-
-    <!-- External Scripts -->
-    <a title="Web Statistics" href="http://clicky.com/100966146"><img alt="Web Statistics" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
-    <script src="//static.getclicky.com/js" type="text/javascript"></script>
-    <script type="text/javascript">try{ clicky.init(100966146); }catch(e){}</script>
-    <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100966146ns.gif" /></p></noscript>
-    <script src="assets/bootstrap/js/jquery-1.12.1.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
-    <script src="assets/javascripts/text-animation.js"></script>
+    <div class="links">
+      <span><a href="https://twitter.com/amanhimself">Twitter</a></span>
+      |
+      <span><a href="https://medium.com/amanhimself">Medium</a></span>
+      |
+      <span><a href="https://amandeepmittal.github.io/blog">Blog</a></span>
+    </div>
+  </body>
   </body>
 </html>
