@@ -22,7 +22,7 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build && cp ./src/assets/CNAME public/",
     "develop": "gatsby develop",
     "deploy":
       "gatsby build && cp ./src/assets/CNAME public/ && gh-pages -d public -b master",
