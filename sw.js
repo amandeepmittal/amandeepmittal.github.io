@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/app-1bd2912de9ffc9def557.js","1872789963a54e2d7a1e0cf37344d358"],["/app-76077d2a647ffefb5bd1.js","3c84f281c2720be2af2a743749830c7f"],["/commons-c1884cdbe5e450b37645.js","13775e130cc35a3fefba7d73ce28622c"],["/index.html","4e58d32ba2d1c9bd1fe9e2db6c46d943"],["/manifest.json","95e40ad1198fc65aa3e74de367fac26b"],["/offline-plugin-app-shell-fallback/index.html","f255fbe3c5b79c2936679cf9ef6a2652"]];
+var precacheConfig = [["/0-4be8a12ecb212be197eb.js","c6f3382da758aaac54446d3410fcc414"],["/6-eb3387b3c9ef5e8e15c2.js","9ba1534817a9b2270b97bf14c9cb87c3"],["/app-5643681fc11de9cfdf9f.js","a899bbf672cf66f0e3d0d5ab75138fa6"],["/component---node-modules-gatsby-plugin-offline-app-shell-js-055df0a7b6401ff4b7d1.js","e78f93d59c3d140477af8bb4ae9d77d6"],["/component---src-pages-404-js-50370e449c934b293249.js","45d01b62ed861a6f08099b644663c984"],["/component---src-pages-404-js.49c0233aa2b8e836f9fc.css","a800100c8a4a001504da65a12e81d27e"],["/component---src-pages-index-js-d48c251fba16e6cb29e8.js","e49de0ea0125c7304c046cbc2187ba5e"],["/component---src-pages-index-js.49c0233aa2b8e836f9fc.css","bae025ad6c23a1d03a62714e3eb9b1fd"],["/index.html","b3966dcb78184e4a8faed3edf8780e1c"],["/manifest.webmanifest","e077f0a419c9152abd1b8e03f30b1402"],["/offline-plugin-app-shell-fallback/index.html","58ebbe3ea8c0a2abc36b4edd6bfa58e1"],["/static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json","c2508676a2f33ea9f1f0bf472997f9a0"],["/static/d/520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E.json","c2508676a2f33ea9f1f0bf472997f9a0"],["/static/d/973/path---index-6a9-JLf5abkRUHguuINdRRrzSoKAtvQ.json","16626a85e564711859ca5d9bc63c47a4"],["/webpack-runtime-3c4e0bf6bc331f69a6c1.js","2b1eed013cc2e380f078076b06bb2adc"]];
 var cacheName = 'sw-precache-v3-gatsby-plugin-offline-' + (self.registration ? self.registration.scope : '');
 
 
@@ -98,7 +98,7 @@ var isPathWhitelisted = function (whitelist, absoluteUrlString) {
     }
 
     // Otherwise compare each path regex to the path of the URL passed in.
-    var path = (new URL(absoluteUrlString)).pathname;
+    var url = new URL(absoluteUrlString), path = url.pathname + url.search;
     return whitelist.some(function(whitelistedPathRegex) {
       return path.match(whitelistedPathRegex);
     });
@@ -135,7 +135,7 @@ var urlsToCacheKeys = new Map(
     var relativeUrl = item[0];
     var hash = item[1];
     var absoluteUrl = new URL(relativeUrl, self.location);
-    var cacheKey = createCacheKey(absoluteUrl, hashParamName, hash, /(.\w{8}.woff2)/);
+    var cacheKey = createCacheKey(absoluteUrl, hashParamName, hash, /(.*js$|\/static\/)/);
     return [absoluteUrl.toString(), cacheKey];
   })
 );
@@ -233,7 +233,7 @@ self.addEventListener('fetch', function(event) {
     if (!shouldRespond &&
         navigateFallback &&
         (event.request.mode === 'navigate') &&
-        isPathWhitelisted(["^.*([^.]{5}|.html)$"], event.request.url)) {
+        isPathWhitelisted(["^.*([^.]{5}|.html)(?<!(\\?|&)no-cache=1)$"], event.request.url)) {
       url = new URL(navigateFallback, self.location).toString();
       shouldRespond = urlsToCacheKeys.has(url);
     }
@@ -285,7 +285,7 @@ self.addEventListener('fetch', function(event) {
 
 // Runtime cache configuration, using the sw-toolbox library.
 
-toolbox.router.get(/\.(?:png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2)$/, toolbox.fastest, {});
+toolbox.router.get(/\.(?:png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, toolbox.fastest, {});
 
 
 
