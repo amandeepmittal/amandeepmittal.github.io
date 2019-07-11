@@ -1,8 +1,0 @@
-{
-  "main.js": "render-page.js",
-  "main.js.map": "render-page.js.map",
-  "static/avatar.jpg": "static/avatar-2f61ea94fb821b550b2153e2b9c9d0ea.jpg",
-  "static/codrops.png": "static/codrops-2d7b2a1fab472ef02babd2186b76f4d8.png",
-  "static/floppy.png": "static/floppy-7d563114074bfca5f3beef4a260cdd7d.png",
-  "static/reactroundup.jpg": "static/reactroundup-f5c9f8022c7db0e102d7cca72aee6791.jpg"
-}
