@@ -1,0 +1,24 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "R2T34268XU.com.amanaasa.app",
+        "paths": [
+          "/*",
+          "/explore"
+        ]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": [
+      "R2T34268XU.com.amanaasa.app"
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "R2T34268XU.com.amanaasa.app"
+    ]
+  }
+}
